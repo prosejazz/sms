@@ -3,10 +3,8 @@ sms
 
 中国短信短信验证码发送接口golang sdk
 
-### 打开sms.go填入APP_ID和APP_SECRET
-
 ### 使用样例
-
+	// 打开sms.go填入APP_ID和APP_SECRET
 	ats, err := sms.GetAccessToken()
 	if err!=nil {
 		
